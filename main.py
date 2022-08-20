@@ -22,4 +22,4 @@ im = Image.open('images.jpg')
 im = im.filter(ImageFilter.Color3DLUT.generate(17, washout))
 im.save('images_processed.jpg')
 
-
+# :)
